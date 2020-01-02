@@ -52,3 +52,22 @@
 | 听觉上存在障碍的人难以听到馆员对展览展品的介绍	| 智能语音识别和合成api可以返回对展览的具体文字介绍 | 中 |
 | 行动不便的人群不知厕所在哪，需要请求帮助	| 智能对话平台根据他对需要提供及时的路线语音反馈（包括路线文字反馈）| 低 |
 | 多动症人群被监测到自己的多次触摸不可摸的展品 | 人体关键点监测实时反馈数据给语音平台，而在线馆员及时到场进行引导和制止其行为，对其后续行为继续监控 |高 |
+
+## 使用到的API
+- 人体检测与属性识别
+    - [人体检测](https://ai.baidu.com/tech/body/attr)
+- 人体关键点识别
+    - [关键点识别](https://ai.baidu.com/tech/body/pose)
+- 实时语音识别
+    - [实时语音识别](https://ai.baidu.com/tech/speech/realtime_asr)
+- 呼叫中心语音解决方案
+    - [呼叫中心语音](https://ai.baidu.com/solution/bsic)
+    
+    
+## 简单的交互与界面设计
+![首页](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200102013158.png)
+![功能页1](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131581.png）
+![功能页2](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131582.png）
+![功能页3](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131583.png）
+
+- 小结：界面设计较为粗略，简单的交互可以实现的，主要还是看期末的交互，那个花的时间会更多。
