@@ -66,8 +66,11 @@
     
 ## 简单的交互与界面设计
 ![首页](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20200102013158.png)
+
 ![功能页1](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131581.png）
+
 ![功能页2](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131582.png）
+
 ![功能页3](https://github.com/yanzhong-su123/API_ML_AI_museum/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_202001020131583.png）
 
 - 小结：界面设计较为粗略，简单的交互可以实现的，主要还是看期末的交互，那个花的时间会更多。
