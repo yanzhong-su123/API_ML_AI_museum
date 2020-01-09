@@ -5,7 +5,7 @@
 | ------------------------- | ------- |
 | Target release(发布日期)  | 2019/12 |
 | Epic(史诗名称)            | 宜动且宜静  |
-| Document status(文档状态) | 进行中  |
+| Document status(文档状态) | 已完成  |
 | Document owner(文件主人)  | 苏衍中 |
 | Designer(领头的设计师)    | 苏衍中 |
 | Developer(领头的开发者)   | 苏衍中 |
