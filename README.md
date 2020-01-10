@@ -56,6 +56,43 @@
 ## 使用到的API
 - 人体检测与属性识别
     - [人体检测](https://ai.baidu.com/tech/body/attr)
+    - HTTP 方法：POST
+    
+- api运用示例
+import base64
+f = open(‘th (1).png’, ‘rb’)
+img = base64.b64encode(f.read())
+
+import requests
+host = ‘https://aip.baidubce.com/rest/2.0/image-classify/v1/realtime_search/similar/search’
+headers={
+   ‘Content-Type’:’application/x-www-form-urlencoded’
+}
+access_token= ’24.c95f780f275c859fa0463438cdc9ebda.2592000.1578373144.282335-17966623’
+host=host+’?access_token=‘+access_token
+
+data={}
+data[‘access_token’]=access_token
+data[‘image’] =img
+res = requests.post(url=host,headers=headers,data=data)
+req=res.json()
+print(req[‘result’])    
+- API返回实例
+{
+    “result_num”: 1,
+    “result”: [
+        {
+            “score”: 0.97976700290421,
+            “brief”: “./data/jay1.jpg”,
+            “cont_sign”: “475124309,1080176642”
+        }
+    ],
+	“has_more”: “false”,
+    “log_id”: 1968648150
+}
+
+下面的我就不一一显示代码了，因此返回的结果和所使用的方法都较为类似，以此类比哈！
+
 - 人体关键点识别
     - [关键点识别](https://ai.baidu.com/tech/body/pose)
 - 实时语音识别
